@@ -1,0 +1,4 @@
+simplePagination
+================
+
+Quick jQuery Pagination
