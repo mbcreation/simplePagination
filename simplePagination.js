@@ -2,21 +2,21 @@
 
   $.fn.simplePagination = function( options ) {  
 
-    
+   	var pagedItemContainer = this.selector;
+
     var settings = $.extend( {
       'transition' : '',
       'pagedItem' : '.pagedItem',
-      'pagedItemContainer' : '#pagedItemContainer',
       'navContainer' : '#navContainer',
       'itemsPerPage' : 10
 
     }, options);
 
     return this.each(function() {        
-		
+		 
 		var transition = settings.transition;
 		var pagedItem = $(settings.pagedItem);
-		var pagedItemContainer = $(settings.pagedItemContainer);
+		
 		var navContainer = $(settings.navContainer);
 		var itemsPerPage = settings.itemsPerPage;
 
