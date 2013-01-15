@@ -5,7 +5,7 @@
    	var pagedItemContainer = this.selector;
 
     var settings = $.extend( {
-      'transition' : '',
+      'transition' : 0,
       'pagedItem' : '.pagedItem',
       'navContainer' : '#navContainer',
       'itemsPerPage' : 10
