@@ -1,5 +1,6 @@
 (function( $ ){
 
+  ///
   $.fn.simplePagination = function( options ) {  
 
    	var pagedItemContainer = this.selector;
@@ -48,7 +49,7 @@
 		navContainer.html(htmlNavigation);
 
 
-		$('a.pageLink',navContainer).live('click',function(e){
+		$('a.pageLink',navContainer).on('click',function(e){
 
 	  		e.preventDefault();
 
